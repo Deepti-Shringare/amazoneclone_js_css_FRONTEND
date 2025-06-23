@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+}
+.navbar{
+    height: 50px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+
+    height: 40px;
+    width: 113px;
+}
+/**
+.logo{
+   
+   
+   
+}**/
+.border{
+    border:1px solid transparent;
+
+}
+.border:hover{
+    border: 1px solid white;
+}
+/**address **/
+.addfirst{
+    font-size: 0.7rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+.addsec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+/**search**/
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navsearch:hover{
+    border:2px solid orange;
+}
+.search-input{
+    width: 620px;
+    height: 40px;
+    
+   font-size: 1rem;
+   border: none
+}
+.searchicon{
+    background-color: #dbaa08;
+    color:black;
+    width: 45px;
+     border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+
+    
+}
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    background-color: #f3f3f3;
+    width: 52px;
+    text-align: center;
+    border: none;
+   
+}
+span{
+    font-size:0.6rem;
+}
+.nav-second{
+    font-size:0.95rem;
+    font-weight: 700;
+}
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+/**second bar**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+  
+}
+.panel-ops p{
+    display: inline;
+    margin: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.95rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/**herosec**/
+.hero-section{
+    background-image:url("heroimg.jpg") ;
+    height:350px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
+    
+   
+}
+.hero-msg{
+    background-color:#f5f6f6;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    color:#007185;
+    width: 90%;
+    margin-left: 50px;
+    
+}
+/**shopping section**/
+.section{
+    height: 420px;
+    background-color: rgb(214, 182, 235);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.section1{
+    height: 410px;
+    width: 306px;
+   display: flex;
+   background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
+    
+}
+.section2{
+    height: 410px;
+    width: 306px;
+    display: flex;
+    background-color: #ffffff;
+ flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.section3{
+    height: 410px;
+    width: 306px;
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
+}
+/**sectiontitle**/
+.sectiontitle1{
+    height: 55px;
+    width: 266px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 21px;
+    }
+
+.sectiontitle2{
+    height: 55px;
+    width: 266px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 21px;
+
+}
+.sectiontitle3{
+    height: 55px;
+    width: 266px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+font-size: 21px;
+}
+/**image**/
+.secimg1{
+    background-image: url("BOX1.jpg");
+    background-size: cover;
+    height: 276px;
+    width: 266px;
+}
+.secimg2{
+    
+    height: 276px;
+    width: 266px;
+}
+
+
+.secimg3{
+    background-image: url("b1.jpg");
+    background-size: cover;
+    height: 276px;
+    width: 266px;
+}
+.sectionB{
+    background-color: rgb(216, 187, 235);
+   margin: 3px;
+
+}
+.secimg4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sectiontitle4{
+    display: flex;
+    
+    font-size: 21px;
+}
+div.scroll-container{
+    background-color:  white;
+    overflow:auto;
+    white-space: nowrap;
+    padding:10px;
+}
+div.scroll-container img{
+    padding: 10px;
+}
+/**partC**/
+.sectionC{
+    height: 430px;
+    background-color:  rgb(216, 187, 235);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px;
+}
+/**title**/
+.sectiontitle5{
+    height: 55px;
+    width: 266px;
+    display: flex;
+    margin: 10px;
+font-size: 21px;
+   
+
+}
+.sectiontitle6{
+    height: 55px;
+    width: 266px;
+    display: flex;
+    margin: 10px;
+font-size: 21px;
+    
+    
+}
+.sectiontitle7{
+    height: 55px;
+    width: 266px;
+    display: flex;
+    margin: 10px;
+font-size: 21px;
+    
+    
+}
+.sectiontitle8{
+    height: 55px;
+    width: 266px;
+    display: flex;
+    margin: 10px;
+font-size: 21px;
+    
+    
+}
+
+
+.section5{
+    height: 420px;
+    width:306px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.section6{
+    height: 420px;
+    width:306px;
+     flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.section7{
+    height: 420px;
+    width:306px;
+ flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.section8{
+    height: 420px;
+    width:306px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.anchor{
+    display: flex;
+    height: 17px;
+    width:266px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.sectionD{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   margin-top: 0;
+   
+}
+.sectiontitleD{
+    font-size: 21px;
+    height: 26px;
+    display: flex;
+    font-size: 21px;
+    background-color: rgb(216, 187, 235);
+    
+}
+.biggestouterdiv-main{
+    height: 900px;
+    background-color: rgb(216, 187, 235);
+}
+
+
+.footer1A{
+    height: 40px;
+    background-color:#222f3d;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.footertitle{
+    font-size: 16px;
+    color: #ffffff;
+
+}
+.footer1B{
+    height: 400px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.p{
+    color: #ffffff;
+    width: 116px;
+    height: 150px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.footer-subtitle{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+     
+}
+
+/**footerc**/
+.AMAZON-IMAGE{
+    width: 90px;
+    height: 60px;
+    
+}
+.englang
+{
+    height: 34px;
+    width: 116px;
+    background-color: #333333;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px SOLID white;
+}
+.search-select{
+    background-color:  #333333;
+    display: flex;;
+    color: #ffffff;
+}
+.footer1C{
+    height: 100px;
+    display: flex;
+    background-color: #333333;
+    display: flex;;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 0.001px solid white;
+
+}
+.USDOLLAR{
+    height: 34px;
+    width: 150px;
+    background-color:  #333333;
+    display: flex;
+    display: flex;
+    color: #ffffff;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px SOLID white;
+    font-size: 13px;
+}
+.footeropt{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+/**BASELINE**/
+.footer1D{
+    height: 300px;
+    background-color: #0f1111;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.last1{
+    font-size: 12px;
+}
+.COLUMN1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.COLUMN2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+.COLUMN3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+
